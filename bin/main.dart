@@ -52,6 +52,9 @@ void main() {
 
   //print(num7);
 
+  // 7 Oparator (+-/*) and Oparands (Value we use)
+  //(Same as Java, JavaScript or others)
+
 
 
 }
