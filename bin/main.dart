@@ -25,6 +25,17 @@ void main() {
   String firstName = 'Tahmeedul';
   String lastName = 'Islam';
 
-  print(firstName+' '+lastName);
+  //print(firstName+' '+lastName);
 
+  // simple calculation
+
+  int num1 = 15;
+  int num2 = 45;
+  int num3 = 30;
+  int num4 = 2;
+  int num5 = 4;
+
+  double result = (((num1+num2)-num3)/num4)*num5;
+
+  print(result);
 }
