@@ -10,9 +10,15 @@ void main() {
   var name = 'Tahmeed';
   var status = true;
 
-  print(name);
-  print(status);
+  // print(name);
+  // print(status);
 
-  
+  String adminName = 'Tahmeedul Islam';
+  int age = 19;
+  double height = 5.10;
+
+  print(adminName);
+  print(age);
+  print(height);
 
 }
