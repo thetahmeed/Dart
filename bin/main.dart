@@ -55,6 +55,19 @@ void main() {
   // 7 Oparator (+-/*) and Oparands (Value we use)
   //(Same as Java, JavaScript or others)
 
+  // 8 Loop
+  // Definite loop (For), Indifinite loop (While and Do while)
+
+  for (var i=1; i<=5; i++){
+    print('I hate you');
+  }
+
+  var j = 1;
+  do{
+    print('I love you');
+    j++;
+  }while(j<=6);
+
 
 
 }
