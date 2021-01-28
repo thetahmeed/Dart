@@ -5,14 +5,17 @@
 
 
 void main() {
-  
-  // Variable without writing their type (Non type sefty)
+  // 1 Hello World
+  //print('Hello World');
+
+  // 2 Variable without writing their type (Non type sefty)
   var name = 'Tahmeed';
   var status = true;
 
   //print(name);
   //print(status);
 
+  // 3 Variable with their type (Type sefty)
   String adminName = 'Tahmeedul Islam';
   int age = 19;
   double height = 5.10;
@@ -21,13 +24,13 @@ void main() {
   //print(age);
   //print(height);
 
-  //  Contact to string
+  // 4 Contact to string
   String firstName = 'Tahmeedul';
   String lastName = 'Islam';
 
   //print(firstName+' '+lastName);
 
-  // simple calculation
+  // 5 simple calculation
 
   int num1 = 15;
   int num2 = 45;
@@ -39,7 +42,7 @@ void main() {
 
   //print(result);
 
-  // Var vs Const
+  // 6 Var vs Const
   var num6 = 10;
   num6 = 11;        // Thats will be the new value
   dynamic d = 10;   // This keyword is same as the 'var' keyword
@@ -47,5 +50,8 @@ void main() {
   const num7 = 10;  // Thats the final value you can't chnage the vlaue next time
   final f = 10;     // This is the same as the 'const' keyword
 
-  print(num7);
+  //print(num7);
+
+
+
 }
