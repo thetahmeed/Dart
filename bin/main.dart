@@ -45,6 +45,7 @@ void main() {
   dynamic d = 10;   // This keyword is same as the 'var' keyword
 
   const num7 = 10;  // Thats the final value you can't chnage the vlaue next time
+  final f = 10;     // This is the same as the 'const' keyword
 
   print(num7);
 }
