@@ -35,7 +35,16 @@ void main() {
   int num4 = 2;
   int num5 = 4;
 
-  double result = (((num1+num2)-num3)/num4)*num5;
+  //double result = (((num1+num2)-num3)/num4)*num5;
 
-  print(result);
+  //print(result);
+
+  // Var vs Const
+  var num6 = 10;
+  num6 = 11;        // Thats will be the new value
+  dynamic d = 10;   // This keyword is same as the 'var' keyword
+
+  const num7 = 10;  // Thats the final value you can't chnage the vlaue next time
+
+  print(num7);
 }
