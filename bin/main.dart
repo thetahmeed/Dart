@@ -29,6 +29,8 @@ void main() {
   String lastName = 'Islam';
 
   //print(firstName+' '+lastName);
+  // or
+  //print('Tahmeed is number ${1}');
 
   // 5 simple calculation
 
@@ -59,12 +61,12 @@ void main() {
   // Definite loop (For), Indifinite loop (While and Do while)
 
   for (var i=1; i<=5; i++){
-    print('I hate you');
+    //print('I hate you');
   }
 
   var j = 1;
   do{
-    print('I love you');
+    //print('I love you');
     j++;
   }while(j<=6);
 
