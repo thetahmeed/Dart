@@ -153,7 +153,10 @@ void main() {
   //print(map);
 
   // Get only keys
-  print(map.keys);
+  //print(map.keys);
+
+  // Get only values
+  print(map.values);
 
 
 }
