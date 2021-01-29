@@ -171,7 +171,28 @@ void main() {
   // Remove (Will remove a single value with a perticular key)
   map.remove('Two');
 
-  print(map);
+  //print(map);
+
+  // 12 Set
+  // It's same as the List the different is we can't store duplicate value
+
+  var set = new Set();
+
+  set.add('100');
+  set.add('200');
+  set.add('300');
+
+  // now we are trying to store a duplicate value
+  set.add('300');       // it will avoided because this is a duplicate value
+  set.add('400');
+  set.add('500');
+
+  //print(set);
+
+  // Another method
+
+  var set2 = new Set.from([10, 20, 30, 40]);
+  //print(set2);
 
 
 }
