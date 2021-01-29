@@ -243,6 +243,7 @@ void main() {
   //print(mFun3(1, 2));
 
   // 17 Creating a class
+
   // Intializing (Banan vul hotei pare. Shob kisui google kora jabe naki) the Class
   MyClass myClass = new MyClass();
   myClass.myClassMethod();
@@ -267,7 +268,12 @@ int mFun3(int a, int b){
 // 17 Creating a Class
 class MyClass {
 
+  var name = 'Tahemeed';        // This is a global/instance veriable
+
   myClassMethod(){
+
+    var age = 20;               // This is a local veriable
+
     print('This is a message from a new class');
   }
 
