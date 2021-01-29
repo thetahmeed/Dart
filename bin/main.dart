@@ -233,12 +233,27 @@ void main() {
 
   // 16 Function in Dart
   // Calling the function
-  mFun();
+  //mFun();
+
+  // Returning the value
+  print(mFun2());
+
 
 
 }
 
 // 16 Function in Dart
+
 void mFun(){
-  print('I am Fun');
+  print('Hello, I\'m Fun');
 }
+
+int mFun2(){
+  
+  return 125;
+
+}
+
+
+
+
