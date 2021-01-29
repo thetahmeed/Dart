@@ -253,7 +253,12 @@ void main() {
   // or
   var obj2 = MyClass();
 
-  myClass.myClassMethod();
+  // Caliing a method from a Class
+  //myClass.myClassMethod();
+
+  // Use of 'this' keyword
+  // Check the class
+  obj.myAnotherMethod('Harshita Gaur');
 
 }
 
@@ -275,7 +280,7 @@ int mFun3(int a, int b){
 // 17 Creating a Class
 class MyClass {
 
-  var name = 'Tahemeed';        // This is a global/instance veriable
+  var name = 'Tahemeed Islam';        // This is a global/instance veriable
 
   myClassMethod(){
 
@@ -283,6 +288,13 @@ class MyClass {
 
     print('This is a message from a new class');
   }
+
+  void myAnotherMethod(String name){
+
+    print(this.name);
+    print(name);
+
+  } 
 
 }
 
