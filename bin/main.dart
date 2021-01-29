@@ -282,6 +282,16 @@ void main() {
   childObj.macBook();
 
 
+  // 20 'Adstract' keyword
+  /* If we use 'abastract' keyword in front of any class then we will be unable to 
+      make any kind of object of that class. */
+
+  // Check Parent.dart (Line: 7)
+  // We had used 'Adastract' keyword and now we can't make any kind of object of Parent.dart class
+  // But we can access all the method from a child class. (Here the child class is Child.dart)
+
+
+
 
 } // End of Main();
 
