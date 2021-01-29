@@ -292,8 +292,12 @@ void main() {
 
 
   // 21 'Super' keyword
-  //childObj.parentMethodWithSuperKeyword();    // Check Child.dart (Lien: 22, 25)
+  //childObj.parentMethodWithSuperKeyword();    // Check Child.dart (Lien: 22, 25) // THIS IS NOT THE EXACT EXPLAINATION
 
+  /* Accually when we have same NAME on Parent.dart and Child.dart  
+    // When we say print NAME then it will print the value of Child.dart
+    // When we say print super.NAME it will print the value of Parent.dart
+  */
 
 } // End of Main();
 
