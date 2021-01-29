@@ -85,9 +85,11 @@ void main() {
     if(k==6){
       continue;
     }
-    print(k);
+    //print(k);
   }
   
+  // 9 If else 
 
+  // Bhai trust me same aqs Java, JavaScript and Others :(
 
 }
