@@ -195,4 +195,10 @@ void main() {
   //print(set2);
 
 
+  // Get value from a set by a loop
+  for(var value in set2){
+    print(value);
+  }
+
+
 }
