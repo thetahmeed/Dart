@@ -158,5 +158,8 @@ void main() {
   // Get only values
   print(map.values);
 
+  // Get length
+  print(map.length);
+
 
 }
