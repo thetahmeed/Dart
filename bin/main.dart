@@ -135,9 +135,13 @@ void main() {
     'age' : '20'
   };
 
-  //print(myMap);             // get all the value
-  print(myMap['name']);       // get a perticular value
+  //print(myMap);               // get all the value
+  //print(myMap['name']);       // get a perticular value
+
+  // push value
+  myMap['wife'] = 'Harshita Gaur';
   
+  print(myMap);
 
 
 }
