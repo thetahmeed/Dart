@@ -156,10 +156,22 @@ void main() {
   //print(map.keys);
 
   // Get only values
-  print(map.values);
+  //print(map.values);
 
   // Get length
-  print(map.length);
+  //print(map.length);
+
+  // Some map functions
+  // AddAll
+  map.addAll({'dkf' : 'fdijo', 'jdfid' : 'fudijio'});
+
+  // Clear (Will clear al the value)
+  //map.clear();
+
+  // Remove (Will remove a single value with a perticular key)
+  map.remove('Two');
+
+  print(map);
 
 
 }
