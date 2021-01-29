@@ -92,4 +92,33 @@ void main() {
 
   // Bhai trust me same aqs Java, JavaScript and Others :(
 
+  // 10 List
+  // (1) Fixed length list, (2) Non-fixed length list
+
+  var myList = new List(3);    // length is fixed
+  myList[0] = 'Dart';
+  myList[1] = 'Flutter';
+  myList[2] = 'Java';
+  
+  //print(myList);        // get all index
+  //print(myList[2]);     // get perticular index
+
+  var myList2 = new List();     // length is not fixed
+
+  myList2.add("Zero");
+  myList2.add("One");
+  myList2.add("12");
+
+  // or
+  myList2.addAll(['Oh', 'bhai', 'Maro', 'Mujhe', 'Maro']);
+
+  // or
+  myList2.insert(1, 'Riku');              // With index number
+
+  // or
+  myList2.insertAll(5, ['a', 'b', 'c']);  // With index number
+
+  print(myList2);
+
+
 }
