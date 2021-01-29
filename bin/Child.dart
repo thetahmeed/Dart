@@ -11,4 +11,11 @@ class Child extends Parent{ // That's how we can got all properties of Parent fr
   // Now we have everything Parent class
   // Lets back to main.dart (Line: 276)
 
+  // Overwritting a method
+
+  @override
+  void macBook(){
+    print('This is a iPhone');
+  }
+
 }
