@@ -237,6 +237,7 @@ void main() {
 
   // Returning the value
   //print(mFun2());
+  // Note: We can return anything. I repeat ANYTHING
 
   // Using params
   print(mFun3(1, 2));
