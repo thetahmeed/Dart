@@ -246,6 +246,13 @@ void main() {
 
   // Intializing (Banan vul hotei pare. Shob kisui google kora jabe naki) the Class
   MyClass myClass = new MyClass();
+  
+  // or
+  var obj = new MyClass();
+
+  // or
+  var obj2 = MyClass();
+
   myClass.myClassMethod();
 
 }
