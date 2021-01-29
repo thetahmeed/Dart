@@ -219,4 +219,19 @@ void main() {
   // Trust me it's same as 'SET' :)
 
 
+  // 15 Generics
+  // By default we can store multiple types of data on Map, HashMap, Set and etc.
+  // But with Generic we can specified the the Data type.\
+  // Ex:
+  var myNewStringList = new List<String>();
+
+  myNewStringList.add('Hello');
+  myNewStringList.add('World');
+
+  var myNewMixMap = new Map<String, int>();
+  myNewMixMap['Hello'] = 12;
+
+  
+
+
 }
