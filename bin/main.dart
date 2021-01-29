@@ -150,7 +150,10 @@ void main() {
   map['Two'] = 2;
   map['Three'] = 3;
 
-  print(map);
+  //print(map);
+
+  // Get only keys
+  print(map.keys);
 
 
 }
