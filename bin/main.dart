@@ -240,8 +240,12 @@ void main() {
   // Note: We can return anything. I repeat ANYTHING
 
   // Using params
-  print(mFun3(1, 2));
+  //print(mFun3(1, 2));
 
+  // 17 Creating a class
+  // Intializing (Banan vul hotei pare. Shob kisui google kora jabe naki) the Class
+  MyClass myClass = new MyClass();
+  myClass.myClassMethod();
 
 }
 
@@ -258,6 +262,15 @@ int mFun2(){
 int mFun3(int a, int b){
   int c = a+b;
   return c;
+}
+
+// 17 Creating a Class
+class MyClass {
+
+  myClassMethod(){
+    print('This is a message from a new class');
+  }
+
 }
 
 
