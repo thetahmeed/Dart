@@ -110,13 +110,19 @@ void main() {
   myList2.add("12");
 
   // or
-  myList2.addAll(['Oh', 'bhai', 'Maro', 'Mujhe', 'Maro']);
+  myList2.addAll(['Oh', 'bhai', 'Maro', 'Mujhe', 'Maro', 'a']);
 
   // or
   myList2.insert(1, 'Riku');              // With index number
 
   // or
   myList2.insertAll(5, ['a', 'b', 'c']);  // With index number
+
+  // Remove a index
+  myList2.remove('a');                    // via a index value
+  myList2.remove('a');                    // it will remove the second 'a'
+
+  myList2.removeAt(1);
 
   print(myList2);
 
