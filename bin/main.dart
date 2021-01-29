@@ -141,7 +141,16 @@ void main() {
   // push value
   myMap['wife'] = 'Harshita Gaur';
   
-  print(myMap);
+  //print(myMap);
+
+  // Creting map with constructor
+  var map = Map();
+
+  map['One'] = 1;
+  map['Two'] = 2;
+  map['Three'] = 3;
+
+  print(map);
 
 
 }
