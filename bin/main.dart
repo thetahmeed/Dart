@@ -70,7 +70,23 @@ void main() {
     j++;
   }while(j<=6);
 
-  // break
+  // Use break
+
+  for(int k=1; k<=10; k++){
+    if(k==6){
+      break;
+    }
+    //print(k);
+  }
+
+  // Use continue
+
+  for(int k=1; k<=10; k++){
+    if(k==6){
+      continue;
+    }
+    print(k);
+  }
   
 
 
