@@ -211,7 +211,7 @@ void main() {
   myHashMap['Three'] = 3;
   myHashMap['Four'] = 4;
 
-  print(myHashMap);
+  //print(myHashMap);
 
   // Rest of the things are same as the MAP ;)
 
@@ -231,7 +231,14 @@ void main() {
   var myNewMixMap = new Map<String, int>();
   myNewMixMap['Hello'] = 12;
 
-  
+  // 16 Function in Dart
+  // Calling the function
+  mFun();
 
 
+}
+
+// 16 Function in Dart
+void mFun(){
+  print('I am Fun');
 }
