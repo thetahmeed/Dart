@@ -118,11 +118,14 @@ void main() {
   // or
   myList2.insertAll(5, ['a', 'b', 'c']);  // With index number
 
-  // Remove a index
+  // Remove an index
   myList2.remove('a');                    // via a index value
   myList2.remove('a');                    // it will remove the second 'a'
 
   myList2.removeAt(1);
+
+  // Update an index
+  myList2.replaceRange(0, 1, ['Zeerooo', '142']); // No updaing just replacing the value with this two value
 
   print(myList2);
 
