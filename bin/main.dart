@@ -4,6 +4,8 @@
 
 
 
+import 'dart:collection';
+
 void main() {
   // 1 Hello World
   //print('Hello World');
@@ -197,8 +199,24 @@ void main() {
 
   // Get value from a set by a loop
   for(var value in set2){
-    print(value);
+    //print(value);
   }
+
+  // 13 Hash map
+
+  var myHashMap = new HashMap();    // "import 'dart:collection';" should be import on the top
+  
+  myHashMap['One'] = 1;
+  myHashMap['Two'] = 2;
+  myHashMap['Three'] = 3;
+  myHashMap['Four'] = 4;
+
+  print(myHashMap);
+
+  // Rest of the things are same as the MAP ;)
+
+  // 14 HashSet
+  // Trust me it's same as 'SET' :)
 
 
 }
