@@ -127,7 +127,17 @@ void main() {
   // Update an index
   myList2.replaceRange(0, 1, ['Zeerooo', '142']); // No updaing just replacing the value with this two value
 
-  print(myList2);
+  //print(myList2);
+
+  // 11 Map
+  var myMap = {
+    'name' : 'Tahmeed',
+    'age' : '20'
+  };
+
+  //print(myMap);             // get all the value
+  print(myMap['name']);       // get a perticular value
+  
 
 
 }
