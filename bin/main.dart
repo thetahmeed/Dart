@@ -6,6 +6,7 @@
 
 import 'dart:collection';
 
+import 'Child.dart';
 import 'NewClass.dart';
 
 void main() {
@@ -266,7 +267,16 @@ void main() {
   // 18 Getting class from a diffrent path
   // At first you have to import "import 'NewClass.dart';" the class. rest of the things well be same
   var newClassObj = NewClass();
-  newClassObj.newClassMethod();
+  //newClassObj.newClassMethod();
+
+
+  // 19 inheritance
+  // Child class got the all thing of a parent clss, You just need to extents, Even you can modified the value
+  // We created a new file class "Parent.dart" and "Child.dart"
+  // Now get lost and check out those file to know about inheritance.
+  var childObj = Child();
+
+  //childObj.macBook();
 
 
 } // End of Main();
