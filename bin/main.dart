@@ -236,8 +236,10 @@ void main() {
   //mFun();
 
   // Returning the value
-  print(mFun2());
+  //print(mFun2());
 
+  // Using params
+  print(mFun3(1, 2));
 
 
 }
@@ -249,11 +251,13 @@ void mFun(){
 }
 
 int mFun2(){
-  
   return 125;
-
 }
 
+int mFun3(int a, int b){
+  int c = a+b;
+  return c;
+}
 
 
 
