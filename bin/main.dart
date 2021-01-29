@@ -279,7 +279,7 @@ void main() {
   //childObj.macBook();
 
   // Overriding a method (Child.dart Line: 15)
-  childObj.macBook();
+  //childObj.macBook();
 
 
   // 20 'Adstract' keyword
@@ -291,6 +291,8 @@ void main() {
   // But we can access all the method from a child class. (Here the child class is Child.dart)
 
 
+  // 21 'Super' keyword
+  //childObj.parentMethodWithSuperKeyword();    // Check Child.dart (Lien: 22, 25)
 
 
 } // End of Main();

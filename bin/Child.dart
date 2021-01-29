@@ -18,4 +18,11 @@ class Child extends Parent{ // That's how we can got all properties of Parent fr
     print('This is a iPhone');
   }
 
+  void parentMethodWithSuperKeyword(){
+    //super.Hello();
+    
+    var pAge = super.parentAge;
+    print(pAge);
+  }
+
 }
