@@ -6,6 +6,8 @@
 
 import 'dart:collection';
 
+import 'NewClass.dart';
+
 void main() {
   // 1 Hello World
   //print('Hello World');
@@ -258,9 +260,23 @@ void main() {
 
   // Use of 'this' keyword
   // Check the class
-  obj.myAnotherMethod('Harshita Gaur');
+  //obj.myAnotherMethod('Harshita Gaur');
 
-}
+
+  // 18 Getting class from a diffrent path
+  // At first you have to import "import 'NewClass.dart';" the class. rest of the things well be same
+  var newClassObj = NewClass();
+  newClassObj.newClassMethod();
+
+
+} // End of Main();
+
+
+
+
+
+
+
 
 // 16 Function in Dart
 
