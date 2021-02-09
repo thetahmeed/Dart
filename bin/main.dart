@@ -7,6 +7,7 @@
 import 'dart:collection';
 
 import 'Child.dart';
+import 'ConClass.dart';
 import 'MyStatic.dart';
 import 'NewClass.dart';
 
@@ -310,6 +311,20 @@ void main() {
 
   // Created an menthod with 'Static' keyword on 'MyStatic.dart' class
   //MyStatic.thisIsAStaticMethod();
+
+  // 23 'Constractor'
+  /*
+  :: Constractror is nothing but a method
+  :: Constractor name should be same as the Class name
+  :: Constractor does't return anything
+  :: No need to call a Constractor. It will be automaticaly called when you make an object of a class.
+
+  // Check 'ConClass.dart' for more
+  */
+
+  // Checking the constractor
+  // var obj404 = new ConClass();
+  // print(obj404);
 
 
 } // End of Main();
