@@ -6,8 +6,13 @@
 
 class ConClass{
 
-  ConClass(){
-    print('I am a constractor');
+  var name;
+
+  ConClass(var name){
+
+    this.name = name;
+
+    print('I am a constractor'+name);
   }
 
 } 

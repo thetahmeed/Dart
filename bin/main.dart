@@ -326,6 +326,12 @@ void main() {
   // var obj404 = new ConClass();
   // print(obj404);
 
+  // Passing a data through the constractor
+  // var obj405 = new ConClass('I am the Data');
+  //print(obj405);
+
+
+
 
 } // End of Main();
 
