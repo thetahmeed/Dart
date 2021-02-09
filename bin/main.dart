@@ -7,6 +7,7 @@
 import 'dart:collection';
 
 import 'Child.dart';
+import 'MyStatic.dart';
 import 'NewClass.dart';
 
 void main() {
@@ -298,6 +299,18 @@ void main() {
     // When we say print NAME then it will print the value of Child.dart
     // When we say print super.NAME it will print the value of Parent.dart
   */
+
+
+  // 22 'Static' keyword
+
+  /*
+  If we want to call any method by calling the Class without making an Object of the class then we can use
+  'Static' keyword
+  */
+
+  // Created an menthod with 'Static' keyword on 'MyStatic.dart' class
+  //MyStatic.thisIsAStaticMethod();
+
 
 } // End of Main();
 
