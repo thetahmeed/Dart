@@ -331,6 +331,35 @@ void main() {
   //print(obj405);
 
 
+  // 24 Exceptions
+  // We made any mistake on code it's throw an exception or Error
+
+  // Handalling with 'Try Catch'
+
+  try{
+    var myException = 10/0;
+    //print(myException);
+  }catch(e){
+    //print("Got an exception");
+  }
+
+  // Handelling with 'throw'
+
+  void myMethod(){
+    var myException2 = 11/0;
+    //print(myException2);
+    throw new Exception();
+  }
+
+  try{
+    myMethod();
+  }catch(e){
+    print(e);
+  }
+
+  
+
+  
 
 
 } // End of Main();
