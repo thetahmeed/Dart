@@ -354,11 +354,19 @@ void main() {
   try{
     myMethod();
   }catch(e){
-    print(e);
+    //print(e);
   }
 
-  
 
+  // 25 dart interface
+  /*
+  Interface is special type of class where methods does not have body.
+  If you 'implements' an interface to a clss. Then the interface will
+  force you to use all the methods of the interface.
+  Check MyInterface.dart for more
+  */
+ 
+  
   
 
 
