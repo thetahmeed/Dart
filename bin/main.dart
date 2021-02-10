@@ -8,6 +8,7 @@ import 'dart:collection';
 
 import 'Child.dart';
 import 'ConClass.dart';
+import 'Model.dart';
 import 'MyStatic.dart';
 import 'NewClass.dart';
 
@@ -366,7 +367,22 @@ void main() {
   Check MyInterface.dart for more
   */
  
-  
+  // 26 Encapsulation
+  /*
+  To set or get data
+  Check model.dart for more
+  */
+
+  // Setting value
+  var model = new Model();
+
+  model.setName = 'Value';
+
+  // Getting value
+  String gValue = model.getName;
+  //print(gValue);
+
+
   
 
 
