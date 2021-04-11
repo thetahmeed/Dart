@@ -1,6 +1,6 @@
 # Dart
 // basic things about dart
-<hr/>
+### Things I covered:
 1. Helllo World
 2. Variable without type sefty
 3. Variable with type sefty
