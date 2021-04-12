@@ -5,4 +5,5 @@
 2. Variable without type sefty
 3. Variable with type sefty
 4. Contacting two string
-5. SImple calculation
+5. Simple calculation
+6. 
