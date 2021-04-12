@@ -11,3 +11,8 @@
 8. Loop
 9. 'break' and 'continue'
 10. List
+11. Deleting an index
+12. Updaet an index
+13. Map: Write and Read an data
+14. Map: Add new data
+15. Creating an map with constructor
